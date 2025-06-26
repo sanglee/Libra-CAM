@@ -20,3 +20,46 @@ You can read the full paper at
 👉 [Official Paper on OpenReview (IJCAI 2022)](https://www.ijcai.org/proceedings/2022/442)
 
 ---
+
+## 📈 Main Results
+
+We evaluated attribution quality across five metrics (AUC, API, APD, IR, DR) on ImageNet and Pascal VOC using ResNet-50 and VGG-16 backbones.
+Libra-CAM consistently achieved the best performance across most metrics and backbones.
+
+| Dataset     | Backbone | AUC ↑ | API ↑ | APD ↓ | IR ↑ | DR ↓ |
+|-------------|----------|-------|-------|--------|------|------|
+| ImageNet    | ResNet-50| **0.273** | **0.115** | **0.034** | **0.721** | **0.276** |
+| ImageNet    | VGG-16   | **0.267** | **0.129** | **0.030** | **0.705** | **0.291** |
+| Pascal VOC  | ResNet-50| **0.428** | **0.157** | **0.001** | **0.648** | **0.351** |
+| Pascal VOC  | VGG-16   | **0.400** | **0.060** | **0.003** | **0.313** | **0.506** |
+
+> **↑ Higher is better**, **↓ Lower is better**
+
+Libra-CAM improved performance by up to ×2.27 across various metrics compared to the second-best methods.
+
+📎 Full table is available below.
+
+<p align="center">
+  <img src="figs/libra_full_comparison.png" width="950"/>
+  <br/>
+  <em>Figure: Full attribution map evaluation across methods, backbones, and datasets.</em>
+</p>
+
+## 📬 Contact
+
+For questions or collaboration inquiries, please refer to the contact information provided in the paper.
+
+> 🔄 If you are interested in the **on-the-fly version** of Contrast-CAT (which does not require pre-built reference libraries), please **contact us via the email provided in the paper**.
+
+
+## Citation
+
+If you found this work or code useful, please cite us:
+
+```
+@inproceedings{hancontrast,
+  title={Contrast-CAT: Contrasting Activations for Enhanced Interpretability in Transformer-based Text Classifiers},
+  author={Han, Sungmin and Lee, Jeonghyun and Lee, Sangkyun},
+  booktitle={The 41st Conference on Uncertainty in Artificial Intelligence}
+}
+```
