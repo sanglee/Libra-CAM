@@ -24,7 +24,7 @@ You can read the full paper at
 ## 📈 Main Results
 
 We evaluated attribution quality across five metrics (AUC, API, APD, IR, DR) on ImageNet and Pascal VOC using ResNet-50 and VGG-16.
-Libra-CAM consistently achieved the best performance across most metrics and models.
+Libra-CAM consistently achieved the best performance across all evaluation metrics and models.
 
 | Dataset     | Model | AUC ↑ | API ↑ | APD ↓ | IR ↑ | DR ↓ |
 |-------------|----------|-------|-------|--------|------|------|
