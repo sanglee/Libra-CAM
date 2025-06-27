@@ -17,7 +17,7 @@ Our experiments show that Libra-CAM can be computed in a reasonable time and is 
 Keywords: Explainable/Interpretable Machine Learning, CAM-style Attribution Map, Threshold Calibration, Linear Approximation
 
 You can read the full paper at  
-👉 [Official Paper on OpenReview (IJCAI 2022)](https://www.ijcai.org/proceedings/2022/442)
+👉 [Official Paper (IJCAI 2022)](https://www.ijcai.org/proceedings/2022/442)
 
 ---
 
