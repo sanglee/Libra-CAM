@@ -1,4 +1,4 @@
-# Libra-CAM: An Activation-Based Attribution Based on the Linear Approximation of Deep Neural Nets and Threshold Calibration, IJCAI'22
+# Libra-CAM: An Activation-Based Attribution Based on the Linear Approximation of Deep Neural Nets and Threshold Calibration, IJCAI`22
 **Sangkyun Lee (Corresponding author), Sungmin Han**
 
 AIRLAB, School of Cybersecurity, Korea University
